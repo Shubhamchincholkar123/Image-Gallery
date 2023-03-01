@@ -1,0 +1,73 @@
+.App {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    box-shadow: 1px 1px 5px grey;
+    padding: 10px;
+    background-color: #72A0C1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item:hover {
+    width: 500px;
+    height: 500px;
+}
+
+.item {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 20px;
+    width: 30%;
+    margin: 5px;
+    pointer-events: fill;
+    transition: 2s;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.image.img-1 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.h1 {
+    font-style: italic;
+    color: #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.slider {
+    margin: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    size-adjust: auto;
+    transition: 2s;
+    scroll-behavior: auto;
+}
+
+.slider #slider-row {
+    margin: auto;
+    padding: 20px;
+    transform: matrix(2s);
+    transition: 2s;
+}
+
+.div-row {
+    background-color: #E6E6FA;
+}
+
+.nav {
+    background-color: #E9967A;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
