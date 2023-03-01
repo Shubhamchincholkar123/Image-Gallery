@@ -23,7 +23,7 @@ const Mainbody = () => {
         Nav.Item >
         <
         Nav.Link eventKey = "link-3"
-        href = 'https://unsplash.com/s/photos/cars' > Cars < /Nav.Link> <
+        href = 'https://unsplash.com/s/photos/car' > Cars < /Nav.Link> <
         /Nav.Item> <
         Nav.Item >
         <
